@@ -75,10 +75,9 @@ export default function ImageUploadBox() {
             onChange={(e) => setInputPromptString(e.target.value)}
           />
         </div>
-        <button onClick={handleSubmit}>Upload Image feth post request</button>
+        <button onClick={handleSubmit}>Upload Image</button>
         {responseMessage && <p>{responseMessage}</p>}
       </div>
-      <button onClick={handleFetch}>fetch test</button>
     </>
   );
 }
